@@ -1,0 +1,92 @@
+/* Global */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .btn {
+  transition: 0.3s;
+}
+.navbar .btn:hover {
+  transform: translateY(-2px);
+}
+.bg-light {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef) !important;
+}
+.bg-light h1 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.bg-light .btn {
+  transition: 0.3s;
+}
+.bg-light .btn:hover {
+  transform: scale(1.05);
+}
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.card img {
+  object-fit: cover;
+  transition: 0.3s;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.card-footer button {
+  transition: 0.3s;
+}
+.card-footer button:hover {
+  background-color: #0d6efd;
+  transform: scale(1.03);
+}
+.list-group-item {
+  transition: 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+footer {
+  margin-top: 50px;
+}
+footer h5 {
+  margin-bottom: 15px;
+}
+footer p,
+footer li {
+  color: #ddd;
+}
+.border {
+  border-radius: 10px !important;
+  transition: 0.3s;
+}
+.border:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.add-cart-btn {
+  transition: all 0.3s ease;
+}
+
+.add-cart-btn:hover {
+  background-color: #198754; /* Green */
+  border-color: #198754;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(25, 135, 84, 0.4);
+}
+
+.add-cart-btn:active {
+  transform: scale(0.95);
+}
